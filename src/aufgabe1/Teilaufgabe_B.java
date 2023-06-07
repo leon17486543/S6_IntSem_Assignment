@@ -1,7 +1,7 @@
 package aufgabe1;
 
 public class Teilaufgabe_B {
-    protected static String s1 = "leon";
+    protected static String s1 = "Kolb";
     protected static String s2 = "Coronapandemie";
 
     public static void main(String[] args){
@@ -10,7 +10,7 @@ public class Teilaufgabe_B {
 
     public Teilaufgabe_B(){
         //Aus Teilaufgabe_A
-        int distance = 12;
+        int distance = 13;
 
         double similarity = calculateSimilarity(s1, s2, distance);
         System.out.println("Levenshtein Similarity: " + similarity);

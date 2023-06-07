@@ -1,15 +1,15 @@
 package aufgabe1;
 
-public class Teilaufgabe_A {
+public class Teilaufgabe_C {
     protected static String s1 = "Kolb";
     protected static String s2 = "Coronapandemie";
     protected static int step = 0;
 
     public static void main(String[] args){
-        new Teilaufgabe_A();
+        new Teilaufgabe_C();
     }
 
-    public Teilaufgabe_A(){
+    public Teilaufgabe_C(){
         int distance = calculateDistance(s1, s2);
         System.out.println("Levenshtein Distance: " + distance);
     }
@@ -45,8 +45,8 @@ public class Teilaufgabe_A {
                     System.out.println(" -> Equal: cost = 0"+"\n");
                     cost = 0;
                 }else {
-                    System.out.println(" -> Not Equal: cost = 1"+"\n");
-                    cost = 1;
+                    System.out.println(" -> Not Equal: cost = 2"+"\n");
+                    cost = 2;
                 }
 
                 System.out.println("find lowest value for current cell: ");
@@ -108,6 +108,4 @@ public class Teilaufgabe_A {
         }
         System.out.println(" ");
     }
-
-
 }
