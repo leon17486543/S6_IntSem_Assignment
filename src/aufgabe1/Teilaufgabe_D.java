@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Teilaufgabe_D {
-    protected static String s1 = "Corona";
+    protected static String s1 = "Kolb";
     protected static String s2 = "Coronapandemie";
 
     public static void main(String[] args){
